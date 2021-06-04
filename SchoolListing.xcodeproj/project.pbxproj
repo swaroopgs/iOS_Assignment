@@ -107,17 +107,16 @@
 		4529E93F266A971E00E546DD /* SchoolListing */ = {
 			isa = PBXGroup;
 			children = (
+				45E71740266AE23E00B09F2D /* Cells */,
+				45E7173F266AD19C00B09F2D /* ViewControllers */,
+				45E7173E266AD18C00B09F2D /* Models */,
 				4529E976266AAA3200E546DD /* ViewModels */,
 				4529E940266A971E00E546DD /* AppDelegate.swift */,
 				4529E942266A971E00E546DD /* SceneDelegate.swift */,
-				4529E944266A971E00E546DD /* ViewController.swift */,
 				4529E946266A971E00E546DD /* Main.storyboard */,
 				4529E949266A972300E546DD /* Assets.xcassets */,
 				4529E94B266A972300E546DD /* LaunchScreen.storyboard */,
 				4529E94E266A972300E546DD /* Info.plist */,
-				4529E970266A97D700E546DD /* SchoolModel.swift */,
-				4529E972266AA09D00E546DD /* SchoolTableViewCell.swift */,
-				4529E974266AA40F00E546DD /* SchoolDetailsViewController.swift */,
 			);
 			path = SchoolListing;
 			sourceTree = "<group>";
@@ -146,6 +145,31 @@
 				4529E977266AAA7B00E546DD /* SchoolViewModel.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		45E7173E266AD18C00B09F2D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4529E970266A97D700E546DD /* SchoolModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		45E7173F266AD19C00B09F2D /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4529E944266A971E00E546DD /* ViewController.swift */,
+				4529E974266AA40F00E546DD /* SchoolDetailsViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		45E71740266AE23E00B09F2D /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4529E972266AA09D00E546DD /* SchoolTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

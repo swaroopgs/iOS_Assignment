@@ -15,11 +15,16 @@ class SchoolDetailsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "School Details"
         if let schoolOverviewText = schoolOverview {
-            print(schoolOverviewText)
+            schoolOverviewLabel.text = "Overview\n\n" + schoolOverviewText + "\n\n" + "Extra Curriculum \n\n" + schoolExtraCurriculum
         }
 
         // Do any additional setup after loading the view.
+    }
+    
+    override func viewWillLayoutSubviews() {
+        schoolOverviewLabel.sizeToFit()
     }
     
 
